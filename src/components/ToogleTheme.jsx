@@ -9,7 +9,7 @@ export default function ThemeToggle() {
 
   const handleCheckboxChange = () => {
     setIsChecked(!isChecked);
-    setTheme(isChecked ? "fantasy" : "night");
+    setTheme(isChecked ? "pastel" : "night");
   };
 
   useEffect(() => {
